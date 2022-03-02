@@ -1,0 +1,54 @@
+.body {
+    margin-bottom: 20%;
+    margin-top: 5%;
+    margin-left: 30px;
+    margin-right: 30px;
+    position: relative;
+}
+.system {
+    width: 45%;
+    float: left;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.cognitive {
+    width: 45%;
+    float: right;
+    margin-right: 30px;
+    margin-top: 15px;
+}
+.overall, .project {
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.overall h3, .project h1, .system h3, .cognitive h3 {
+    font-family: Helvetica, sans-serif;
+    font-weight: 10px;
+    justify-content: center;
+    color: #121619;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.overall p, .project p, .system p, .cognitive p {
+    margin-top: 10px;
+    color: #121619;
+    font-family: Helvetica, sans-serif;
+}
+.model-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.model-button button{
+    position: relative;
+    background-color: #037FFf;
+    color: white;
+    cursor: pointer;
+    font-size: 15pt;
+    margin-left: 5px;
+    margin-bottom: 5%;
+    justify-content: center;
+}

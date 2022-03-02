@@ -1,0 +1,66 @@
+.entity {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .entityList {
+    width: 100vw;
+    height: auto;
+  }
+  
+  /* MENU ITEM STYLING */
+  
+  .entityDBItem {
+    width: 95%;
+    height: 100px;
+    margin: 30px;
+    background-color: lightgoldenrodyellow;
+  }
+  .entityDBItem:hover {
+    transition: 0.3s ease-in;
+    cursor: pointer;
+    background-color: darkorange;
+  }
+  
+  .entityDBItem div {
+    width: 100%;
+    height: 20px;
+    position: center;
+  }
+  
+  .entityDBItem h3 {
+    padding-top: 15pt;
+    margin-top: 20pt;
+    text-align: left;
+    margin-left: 10pt;
+    margin-right: 10pt;
+    color: #082b44;
+  }
+  .entityDBItem p {
+    text-align: left;
+    margin-left: 10pt;
+    margin-right: 10pt;
+    color: #082b44;
+  }
+  .my-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin-top: 30px;
+  }
+  .my-button button{
+    position: relative;
+    background-color: #037FFf;
+    color: white;
+    cursor: pointer;
+    width: 150px;
+    height: 80px;
+    margin-left: 50px;
+    justify-content: center;
+  }

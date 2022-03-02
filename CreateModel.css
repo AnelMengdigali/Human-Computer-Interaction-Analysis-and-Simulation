@@ -1,0 +1,18 @@
+.createModelList {
+    box-sizing: border-box;
+}
+
+.createModel {
+    margin: 0;
+    padding: 20px;
+    font-family: Helvetica, sans-serif;
+}
+
+input[type="checkbox"] {
+    vertical-align: middle;
+    font-family: Helvetica, sans-serif;
+}
+label, input {
+    display: inline-block;
+    vertical-align: middle;
+}

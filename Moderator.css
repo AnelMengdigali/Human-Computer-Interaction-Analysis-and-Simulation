@@ -1,0 +1,31 @@
+
+  .Moderator{
+    background-color: #cbfffb;
+    min-height:500px;
+    width: 400px;
+    margin: 40px auto;
+  }
+  
+  #to-do-form input{
+    background-color: rgb(35, 157, 194);
+    border: 0; 
+    color: #fff;
+    width: 300px;
+    height: 50px;
+    padding: 0 20px;
+    font-size: 18px;
+    border-radius: 10px;
+  }
+  #to-do-form input::placeholder{
+    color: rgba(255,255,255,0.5);
+  }
+  #to-do-form button{
+    height: 30px;
+    width: 300px;
+    padding: 0 20px;
+    border-radius: 10px;
+    margin-left: 15pt;
+    background-color:rgb(255, 206, 71); 
+    cursor: pointer;
+  }
+ 
